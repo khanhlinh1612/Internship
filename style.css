@@ -1,0 +1,122 @@
+
+body {
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin:0;
+    padding: 0;
+
+}
+.topnav{
+    width:auto;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.3); /* Màu nền trong suốt */
+    backdrop-filter: blur(10px); /* Độ mờ 10px */
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    height: 100px;
+    align-items: center;
+    padding-right: 35px;
+    padding-left:145px;
+}
+.book1{
+    background-color:bisque;
+    border-radius: 5px;
+}
+.Name{
+    margin-right: 600px;
+    font-size: x-large;
+    font-weight:bold;
+    margin-left: 5px;
+
+}
+a {
+    color:blue;
+    text-decoration: none;
+    font-size: large;
+    font-weight:bolder;
+}
+ 
+.title{
+    width:600px;
+    background-image:linear-gradient(to right,rgba(255, 192, 203, 0.4), rgba(255, 255, 255, 0.3),rgba(255, 192, 203, 0.4));
+    backdrop-filter: blur(0.5px); /* Độ mờ 10px */
+    font-size:35px;
+    font-weight: bolder;
+    color:steelblue
+}
+.script{
+    font-size: 15px;
+    font-weight: bold;
+    color:black;
+}
+.footer {
+    position: relative;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    
+  }
+  
+  .container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    background-image:linear-gradient(to right,rgba(0, 0, 139, 1), rgba(255, 255, 255, 0.3),rgba(0, 0, 139, 1)) ;
+    height: 100px;
+    width:100%;
+    color:aliceblue;
+    margin: 0 auto;
+    align-items: center;
+    
+  }
+  .tour{
+    font-size: 20px;
+    font-weight:600;
+    margin-right: 100px;
+  }
+  .book{
+    margin-left: 200px;
+    border-radius:10px;
+    width: 150px;
+    height:40px ;
+    background-color: orange;
+    margin-right: 130px;
+    font-weight: bold;
+  }
+ 
+  .book3{
+    margin-top: 10px;
+    margin-left: 140px;
+    border-radius:10px;
+    width: 100px;
+    height:40px ;
+    
+    background-color:darkmagenta;
+    
+  }
+  .but1{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: small;
+  }
+  .book4{
+    margin-top: 10px;
+    margin-left: 130px;
+    border-radius:10px;
+    width: 100px;
+    height:40px ;
+    color: aliceblue;
+    background-color:cadetblue;
+    font-weight: bold;
+  }
+  #clock{
+    margin-left: 50px;
+  
+  }
+  .but2{
+    color:black;
+    font-size: medium;
+  }
